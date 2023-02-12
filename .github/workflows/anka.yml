@@ -14,6 +14,7 @@ jobs:
         with:
           anka-vm-template-name: "13.2"
           anka-vm-tag-name: "base"
+          skip-registry-pull: true
           vm-commands: |
             echo \"Starting build process on \$(hostname)\"
             pwd

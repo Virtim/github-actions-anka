@@ -11,7 +11,7 @@ jobs:
         id: build
         uses: veertuinc/anka-vm-github-action@v1.3.3
         with:
-          anka-vm-template-name: "13.2"
+          anka-vm-template-name: "VenturaM1"
           anka-vm-tag-name: "base"
           anka-start-options: "-f"
           anka-run-options: "--wait-network --wait-time --no-volume"

@@ -19,3 +19,4 @@ jobs:
           anka-cp-disable: true
           vm-commands: |
             echo \"Starting build process on \$(hostname)\"
+            brew --version

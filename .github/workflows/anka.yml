@@ -15,7 +15,9 @@ jobs:
           anka-vm-template-name: "13.2"
           anka-vm-tag-name: "base"
           anka-start-options: "-f"
+          anka-run-options: "--wait-network --wait-time --no-volume"
           skip-registry-pull: true
+          anka-cp-disable: true
           vm-commands: |
             echo \"Starting build process on \$(hostname)\"
             pwd

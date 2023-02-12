@@ -1,0 +1,16 @@
+name: Anka
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build: 
+    runs-on: self-hosted
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build
+        run: |
+          echo "Building..."
+          echo "Done!"
